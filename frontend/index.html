@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Educational Auth System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Role Selection -->
+<div id="rolePage" class="container role-container">
+    <h1>Select Your Role</h1>
+    <div class="cards">
+        <div class="card" onclick="selectRole('Student')">Student</div>
+        <div class="card" onclick="selectRole('Teacher')">Teacher</div>
+        <div class="card" onclick="selectRole('Parent')">Parent</div>
+        <div class="card" onclick="selectRole('Admin')">Admin</div>
+    </div>
+</div>
+
+<!-- Auth Page -->
+<div id="authPage" class="container hidden">
+
+    <button class="back-btn" onclick="goBack()">← Back</button>
+    <h2 id="roleTitle"></h2>
+
+    <div class="tabs">
+        <button type="button" onclick="showLogin()">Login</button>
+        <button type="button" onclick="showRegister()">Register</button>
+    </div>
+
+    <!-- LOGIN -->
+    <div id="loginForm">
+        <form onsubmit="handleAuth('login'); return false;">
+
+            <input type="text" id="loginIdField" name="loginId"
+                   placeholder="Email" required>
+
+            <input type="password" name="password"
+                   placeholder="Password" required>
+
+            <div class="forgot-container">
+                <span class="forgot-link" onclick="forgotPassword()">
+                    Forgot Password?
+                </span>
+            </div>
+
+            <button type="submit" class="main-btn">Login</button>
+
+            <div class="divider">OR</div>
+
+            <div class="social-login">
+                <button type="button" class="google-btn">
+                    Login with Google
+                </button>
+                <button type="button" class="facebook-btn">
+                    Login with Facebook
+                </button>
+                <button type="button" class="apple-btn">
+                    Login with Apple
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- REGISTER -->
+    <div id="registerForm" class="hidden">
+        <form onsubmit="handleAuth('register'); return false;">
+
+            <input type="text" name="name"
+                   placeholder="Full Name" required>
+
+            <input type="text" id="roleIdField"
+                   name="roleId"
+                   placeholder="ID" required>
+
+            <input type="email" name="email"
+                   placeholder="Email" required>
+
+            <input type="password" id="passwordField"
+                   name="password"
+                   placeholder="Password"
+                   required
+                   onkeyup="checkPasswordStrength()">
+
+            <div class="strength-bar">
+                <div id="strengthFill"></div>
+            </div>
+
+            <input type="password" name="confirm"
+                   placeholder="Confirm Password" required>
+
+            <button type="submit" class="main-btn">
+                Register
+            </button>
+
+        </form>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

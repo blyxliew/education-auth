@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #4f7cff, #6a89ff);
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    background: white;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background: #f4f6ff;
+    padding: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #4f7cff;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.main-btn {
+    width: 100%;
+    padding: 12px;
+    background: #4f7cff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.strength-bar {
+    height: 6px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+#strengthFill {
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.forgot-container {
+    text-align: right;
+}
+
+.forgot-link {
+    font-size: 14px;
+    color: #4f7cff;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.google-btn { background: #db4437; color: white; }
+.facebook-btn { background: #4267B2; color: white; }
+.apple-btn { background: black; color: white; }
+
+.dashboard-card {
+    margin-top: 20px;
+}
+
+.logout-btn {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
